@@ -1,0 +1,12 @@
+ const downloadTemplate = () => {
+    const link = document.createElement('a');
+    
+    link.href = '/templates/enduser-import-template.xlsx';
+    link.download = `enduser-import-template.xlsx`;
+    link.click();
+  };
+  
+  
+  
+  
+ // call the above onClick event
